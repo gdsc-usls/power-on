@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-parallax-tilt": "^1.7.118"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

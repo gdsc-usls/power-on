@@ -8,6 +8,7 @@ specifiers:
   postcss: ^8.4.21
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-parallax-tilt: ^1.7.118
   tailwindcss: ^3.2.7
   typescript: ^4.9.3
   vite: ^4.1.0
@@ -15,6 +16,7 @@ specifiers:
 dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-parallax-tilt: 1.7.118_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
   '@types/react': 18.0.28
@@ -808,6 +810,16 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-parallax-tilt/1.7.118_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-z/Noucq9VdmH9uCv+oMHtodnObAYhDEXyE1Cilc8AC2rypXWg3O8xKvUdMltnIudqN60Y7609XIrVTkAJWa30g==}
+    peerDependencies:
+      react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react/18.2.0:
