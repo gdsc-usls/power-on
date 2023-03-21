@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Google-Sans";
+  src: url("/fonts/GoogleSans-Bold.woff2");
+  font-weight: 700;
+}
