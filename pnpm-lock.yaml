@@ -11,6 +11,7 @@ specifiers:
   postcss: ^8.4.21
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-firebase-hooks: ^5.1.1
   react-parallax-tilt: ^1.7.118
   react-router-dom: ^6.9.0
   sort-by: ^1.2.0
@@ -24,6 +25,7 @@ dependencies:
   match-sorter: 6.3.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-firebase-hooks: 5.1.1_cio6j2hlcukevw4aig7wk3q6vm
   react-parallax-tilt: 1.7.118_biqbaboplfbrettd7655fr4n2y
   react-router-dom: 6.9.0_biqbaboplfbrettd7655fr4n2y
   sort-by: 1.2.0
@@ -1542,6 +1544,16 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-firebase-hooks/5.1.1_cio6j2hlcukevw4aig7wk3q6vm:
+    resolution: {integrity: sha512-y2UpWs82xs+39q5Rc/wq316ca52QsC0n8m801V+yM4IC4hbfOL4yQPVSh7w+ydstdvjN9F+lvs1WrO2VYxpmdA==}
+    peerDependencies:
+      firebase: '>= 9.0.0'
+      react: '>= 16.8.0'
+    dependencies:
+      firebase: 9.18.0
+      react: 18.2.0
     dev: false
 
   /react-parallax-tilt/1.7.118_biqbaboplfbrettd7655fr4n2y:
