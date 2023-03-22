@@ -6,7 +6,7 @@ export const Root = () => {
       <Outlet />
 
       <img
-        className="w-full h-full object-cover absolute bottom-0"
+        className="w-full h-full object-cover absolute bottom-0 pointer-events-none"
         src="/assets/gradient.png"
         alt="gradient background"
       />

@@ -1,7 +1,7 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ReactDOM from "react-dom/client";
-import { Certificate, Root } from "./routes";
+import { Certificate, Home, Root } from "./routes";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -9,6 +9,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
       {
         path: "certificate/:studentId",
         element: <Certificate />,
