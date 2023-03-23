@@ -107,7 +107,7 @@ export const Manage = () => {
   const handleLogin: React.FormEventHandler = (e) => {
     e.preventDefault();
 
-    if (password === import.meta.env.VITE_PUBLIC_PASSWORD) {
+    if (password === import.meta.env.VITE_PASSWORD) {
       setAuthorized(true);
       toast.success("Login successful");
     } else {
