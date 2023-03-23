@@ -12,11 +12,11 @@ export const Certificate = () => {
   );
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <h1 className="text-white text-4xl font-google">Loading...</h1>;
   }
 
   if (!data.fullName) {
-    return <div>Student not found</div>;
+    return <h1 className="text-white text-4xl font-google">Certificate does not exist</h1>;
   }
 
   return (

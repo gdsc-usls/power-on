@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@headlessui/react': ^1.7.13
   '@types/react': ^18.0.27
   '@types/react-dom': ^18.0.10
   '@vitejs/plugin-react-swc': ^3.0.0
@@ -12,23 +13,28 @@ specifiers:
   react: ^18.2.0
   react-dom: ^18.2.0
   react-firebase-hooks: ^5.1.1
+  react-hot-toast: ^2.4.0
   react-parallax-tilt: ^1.7.118
   react-router-dom: ^6.9.0
   sort-by: ^1.2.0
   tailwindcss: ^3.2.7
   typescript: ^4.9.3
   vite: ^4.1.0
+  zod: ^3.21.4
 
 dependencies:
+  '@headlessui/react': 1.7.13_biqbaboplfbrettd7655fr4n2y
   firebase: 9.18.0
   localforage: 1.10.0
   match-sorter: 6.3.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-firebase-hooks: 5.1.1_cio6j2hlcukevw4aig7wk3q6vm
+  react-hot-toast: 2.4.0_biqbaboplfbrettd7655fr4n2y
   react-parallax-tilt: 1.7.118_biqbaboplfbrettd7655fr4n2y
   react-router-dom: 6.9.0_biqbaboplfbrettd7655fr4n2y
   sort-by: 1.2.0
+  zod: 3.21.4
 
 devDependencies:
   '@types/react': 18.0.28
@@ -728,6 +734,18 @@ packages:
       yargs: 16.2.0
     dev: false
 
+  /@headlessui/react/1.7.13_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-9n+EQKRtD9266xIHXdY5MfiXPDfYwl7zBM7KOx2Ae3Gdgxy8QML1FkCMjq6AsOf0l6N9uvI4HcFtuFlenaldKg==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: ^16 || ^17 || ^18
+      react-dom: ^16 || ^17 || ^18
+    dependencies:
+      client-only: 0.0.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -1049,6 +1067,10 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /client-only/0.0.1:
+    resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
+    dev: false
+
   /cliui/7.0.4:
     resolution: {integrity: sha512-OcRE68cOsVMXp1Yvonl/fzkQOyjLSu/8bhPDfQt0e0/Eb283TKP20Fs2MqoPsr9SwA595rRCA+QMzYc9nBP+JQ==}
     dependencies:
@@ -1239,6 +1261,12 @@ packages:
     dependencies:
       is-glob: 4.0.3
     dev: true
+
+  /goober/2.1.12:
+    resolution: {integrity: sha512-yXHAvO08FU1JgTXX6Zn6sYCUFfB/OJSX8HHjDSgerZHZmFKAb08cykp5LBw5QnmyMcZyPRMqkdyHUSSzge788Q==}
+    peerDependencies:
+      csstype: ^3.0.10
+    dev: false
 
   /has/1.0.3:
     resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==}
@@ -1556,6 +1584,20 @@ packages:
       react: 18.2.0
     dev: false
 
+  /react-hot-toast/2.4.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-qnnVbXropKuwUpriVVosgo8QrB+IaPJCpL8oBI6Ov84uvHZ5QQcTp2qg6ku2wNfgJl6rlQXJIQU5q+5lmPOutA==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: '>=16'
+      react-dom: '>=16'
+    dependencies:
+      goober: 2.1.12
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    transitivePeerDependencies:
+      - csstype
+    dev: false
+
   /react-parallax-tilt/1.7.118_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-z/Noucq9VdmH9uCv+oMHtodnObAYhDEXyE1Cilc8AC2rypXWg3O8xKvUdMltnIudqN60Y7609XIrVTkAJWa30g==}
     peerDependencies:
@@ -1860,4 +1902,8 @@ packages:
       string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 20.2.9
+    dev: false
+
+  /zod/3.21.4:
+    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: false
