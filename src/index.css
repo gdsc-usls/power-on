@@ -4,6 +4,18 @@
 
 @font-face {
   font-family: "Google-Sans";
+  src: url("/fonts/GoogleSans-Regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Google-Sans";
+  src: url("/fonts/GoogleSans-Medium.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Google-Sans";
   src: url("/fonts/GoogleSans-Bold.woff2");
   font-weight: 700;
 }
