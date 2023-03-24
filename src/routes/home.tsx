@@ -5,7 +5,10 @@ export const Home = () => {
   const [studentId, setStudentId] = useState("");
 
   return (
-    <div className="bg-white z-10 flex space-x-4 border border-black rounded-lg items-center px-4 bg-opacity-80">
+    <section className='z-10'>
+      <h2 className='text-white font-google mb-2'>PowerOn Workshop: Solution Challenge 2023</h2>
+
+    <div className="bg-white flex space-x-4 border border-black rounded-lg items-center px-4">
       <input
         required
         type="text"
@@ -22,5 +25,6 @@ export const Home = () => {
         &rarr;
       </Link>
     </div>
+    </section>
   );
 };
