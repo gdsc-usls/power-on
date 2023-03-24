@@ -1,6 +1,7 @@
 import { doc } from "firebase/firestore";
 import Tilt from "react-parallax-tilt";
 import { useParams } from "react-router-dom";
+import { Navbar } from "../components";
 import { db } from "../config/firebase";
 import { Member } from "../data";
 import { useDoc } from "../hooks/firestore";
@@ -12,11 +13,22 @@ export const Certificate = () => {
   );
 
   if (loading) {
-    return <h1 className="text-white md:text-4xl text-center font-google">Loading...</h1>;
+    return (
+      <h1 className="text-white md:text-4xl text-center font-google">
+        Loading...
+      </h1>
+    );
   }
 
   if (!data.fullName) {
-    return <h1 className="text-white md:text-4xl text-center font-google">Certificate does not exist</h1>;
+    return (
+      <>
+        <Navbar />
+        <h1 className="text-white md:text-4xl text-center font-google">
+          Certificate does not exist
+        </h1>
+      </>
+    );
   }
 
   return (
