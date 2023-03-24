@@ -12,16 +12,16 @@ export const Certificate = () => {
   );
 
   if (loading) {
-    return <h1 className="text-white text-4xl font-google">Loading...</h1>;
+    return <h1 className="text-white md:text-4xl text-center font-google">Loading...</h1>;
   }
 
   if (!data.fullName) {
-    return <h1 className="text-white text-4xl font-google">Certificate does not exist</h1>;
+    return <h1 className="text-white md:text-4xl text-center font-google">Certificate does not exist</h1>;
   }
 
   return (
-    <Tilt gyroscope className="z-10">
-      <div className="md:w-[750px] sm:w-[600px] w-[420px] relative rounded-lg grid place-items-center overflow-hidden">
+    <Tilt gyroscope className="max-w-[850px] mx-auto">
+      <div className="w-full relative rounded-lg grid place-items-center overflow-hidden">
         <p className="absolute font-google md:text-[40px] text-lg sm:text-[30px] text-[#7f858c] font-bold md:mt-20 sm:mt-16 mt-12 uppercase">
           {data.fullName}
         </p>
