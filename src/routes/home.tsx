@@ -6,7 +6,7 @@ export const Home = () => {
   const [studentId, setStudentId] = useState("");
 
   return (
-    <section className="z-10 flex justify-between items-center">
+    <section className="z-10 flex justify-between items-center min-h-screen">
       <div>
         <h2 className="text-white font-google lg:text-7xl sm:text-5xl text-3xl font-bold">
           PowerOn Workshop:

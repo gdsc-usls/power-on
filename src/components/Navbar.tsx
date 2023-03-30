@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <nav className="text-white absolute top-10 flex justify-between items-center w-[90%]">
+    <nav className="text-white absolute top-10 flex justify-between items-center w-full">
       <div className="flex space-x-4 items-center">
         <img src="/assets/gdsc_logo.png" alt="logo" className="w-[70px]" />
         <p>Google DSC - USLS</p>
@@ -42,7 +42,7 @@ export const Navbar = () => {
             href="https://github.com/gdsc-usls/certificate-generator"
             target="_blank"
             rel="noreferrer noopener"
-            className="rounded bg-blue-600 text-white px-6 py-3"
+            className="rounded-md bg-blue-600 text-white px-6 py-3"
           >
             Source Code
           </a>
