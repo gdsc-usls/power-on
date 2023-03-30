@@ -4,8 +4,8 @@ export const Navbar = () => {
   return (
     <nav className="text-white absolute top-10 flex justify-between items-center w-full">
       <Link to="/" className="flex space-x-4 items-center">
-        <img src="/assets/gdsc_logo.png" alt="logo" className="w-[70px]" />
-        <p>Google DSC - USLS</p>
+        <img src="/assets/gdsc_logo.png" alt="logo" className="md:w-[70px] w-[50px]" />
+        <p className='text-sm md:text-base'>Google DSC - USLS</p>
       </Link>
 
       <ul className="lg:flex space-x-12 hidden">
