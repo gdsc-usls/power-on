@@ -19,3 +19,9 @@
   src: url("/fonts/GoogleSans-Bold.woff2");
   font-weight: 700;
 }
+
+@layer {
+  body {
+    font-family: "Google-Sans", sans-serif;
+  }
+}
