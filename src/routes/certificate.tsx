@@ -17,7 +17,7 @@ export const Certificate = () => {
         <h1 className="text-white md:text-4xl text-center">Loading...</h1>
       )}
 
-      {!data.fullName && (
+      {!loading && !data.fullName && (
         <h1 className="text-white md:text-4xl text-center">
           Certificate does not exist
         </h1>

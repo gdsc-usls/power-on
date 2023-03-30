@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
   return (
     <nav className="text-white absolute top-10 flex justify-between items-center w-full">
-      <div className="flex space-x-4 items-center">
+      <Link to="/" className="flex space-x-4 items-center">
         <img src="/assets/gdsc_logo.png" alt="logo" className="w-[70px]" />
         <p>Google DSC - USLS</p>
-      </div>
+      </Link>
 
       <ul className="lg:flex space-x-12 hidden">
         <li>
